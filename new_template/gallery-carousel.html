@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title> Gallery Carousel || Notech || Notech HTML Template For It Solution </title>
+	<!-- favicons Icons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+	<link rel="manifest" href="assets/images/favicons/site.html" />
+	<meta name="description" content="Notech HTML Template For It Solution" />
+
+	<!-- fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+		rel="stylesheet">
+
+
+	<link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+	<link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
+	<link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+	<link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+	<link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+	<link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+	<link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+	<link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
+	<link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
+	<link rel="stylesheet" href="assets/vendors/notech-icons/style.css">
+	<link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.min.css" />
+	<link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
+	<link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
+	<link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
+	<link rel="stylesheet" href="assets/vendors/bxslider/jquery.bxslider.css" />
+	<link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
+	<link rel="stylesheet" href="assets/vendors/vegas/vegas.min.css" />
+	<link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+	<link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
+
+	<!-- template styles -->
+	<link rel="stylesheet" href="assets/css/notech.css" />
+	<link rel="stylesheet" href="assets/css/notech-responsive.css" />
+
+	<!-- modes css -->
+	<link rel="stylesheet" id="jssMode" href="assets/css/notech-light.css">
+
+
+	<!-- toolbar css -->
+	<link rel="stylesheet" href="assets/vendors/toolbar/css/toolbar.css">
+</head>
+
+<body>
+
+	<!-- style switcher -->
+	<div class="style-switcher">
+		<a href="#" id="switcher-toggler"><i class="fa fa-cog"></i></a>
+		<h3>Layout Options</h3>
+		<div class="layout-feature" id="colorMode">
+			<a href="#" class="dark-switcher" data-theme="notech-dark">Dark</a>
+			<a href="#" class="light-switcher" data-theme="notech-light">Light</a>
+			<button class="boxed-switcher">Boxed</button><!-- /.ltr-switcher -->
+		</div><!-- /.language-feature -->
+	</div>
+	<!-- end style switcher -->
+
+	<div class="preloader">
+		<img class="preloader__image" width="60" src="assets/images/loader.png" alt="" />
+	</div>
+	<!-- /.preloader -->
+	<div class="page-wrapper">
+		<header class="main-header clearfix">
+			<div class="main-header__top">
+				<div class="main-header__top-inner clearfix">
+					<div class="main-header__top-left">
+						<ul class="list-unstyled main-header__top-address">
+							<li>
+								<div class="icon">
+									<span class="icon-pin"></span>
+								</div>
+								<div class="text">
+									<p>66 broklyn golden street line. New York</p>
+								</div>
+							</li>
+							<li>
+								<div class="icon">
+									<span class="icon-email"></span>
+								</div>
+								<div class="text">
+									<p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="main-header__top-right">
+						<div class="main-header__top-right-content">
+							<ul class="list-unstyled main-header__top-right-menu">
+								<li><a href="#">About</a></li>
+								<li><a href="#">Leadership</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+							<div class="main-header__top-right-social">
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-facebook"></i></a>
+								<a href="#"><i class="fab fa-pinterest-p"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<nav class="main-menu clearfix">
+				<div class="main-menu__wrapper clearfix">
+					<div class="main-menu__left main-menu__left--two">
+						<div class="main-menu__logo">
+							<a href="index.html">
+								<img class="logo-dark" src="assets/images/resources/logo-1.png" alt="">
+								<img class="logo-light" src="assets/images/resources/logo-2.png" alt="">
+							</a>
+						</div>
+						<div class="main-menu__main-menu-box main-menu__main-menu-box--two">
+							<a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+							<ul class="main-menu__list">
+								<li class="dropdown megamenu">
+									<a href="index.html">Home</a>
+									<ul>
+										<li>
+											<div class="megamenu-box">
+												<div class="container">
+													<div class="megamenu-box__inner">
+														<div class="row">
+															<div class="col-xl-3">
+																<div class="megamenu-box__single">
+																	<div class="megamenu-box__img">
+																		<img src="assets/images/resources/megamenu-box-img-1.jpg"
+																			alt="">
+																		<div class="megamenu-box__btns">
+																			<a href="index.html" target="_blank"
+																				class="thm-btn main-slider__btn">Multi
+																				Page</a>
+																			<a href="index-one-page.html"
+																				target="_blank"
+																				class="thm-btn main-slider__btn">One
+																				Page</a>
+																		</div><!-- /.megamenu-box__btns -->
+
+																	</div>
+																	<p class="megamenu-box__text">Home Page 01</p>
+																</div>
+															</div>
+															<div class="col-xl-3">
+																<div class="megamenu-box__single">
+																	<div class="megamenu-box__img">
+																		<img src="assets/images/resources/megamenu-box-img-2.jpg"
+																			alt="">
+																		<div class="megamenu-box__btns">
+																			<a href="index2.html" target="_blank"
+																				class="thm-btn main-slider__btn">Multi
+																				Page</a>
+																			<a href="index2-one-page.html"
+																				target="_blank"
+																				class="thm-btn main-slider__btn">One
+																				Page</a>
+																		</div><!-- /.megamenu-box__btns -->
+																	</div>
+																	<p class="megamenu-box__text">Home Page 02</p>
+																</div>
+															</div>
+															<div class="col-xl-3">
+																<div class="megamenu-box__single">
+																	<div class="megamenu-box__img">
+																		<img src="assets/images/resources/megamenu-box-img-3.jpg"
+																			alt="">
+																		<div class="megamenu-box__btns">
+																			<a href="index3.html" target="_blank"
+																				class="thm-btn main-slider__btn">Multi
+																				Page</a>
+																			<a href="index3-one-page.html"
+																				target="_blank"
+																				class="thm-btn main-slider__btn">One
+																				Page</a>
+																		</div><!-- /.megamenu-box__btns -->
+																	</div>
+																	<p class="megamenu-box__text">Home Page 03</p>
+																</div>
+															</div>
+															<div class="col-xl-3">
+																<div class="megamenu-box__single">
+																	<div class="megamenu-box__img">
+																		<img src="assets/images/resources/megamenu-box-img-4.jpg"
+																			alt="">
+																		<div class="megamenu-box__btns">
+																			<a href="index-dark.html" target="_blank"
+																				class="thm-btn main-slider__btn">View
+																				Page</a>
+																		</div><!-- /.megamenu-box__btns -->
+																	</div>
+																	<p class="megamenu-box__text">Home Dark</p>
+																</div>
+															</div>
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown current">
+									<a href="#">Pages</a>
+									<ul>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="team.html">Team</a></li>
+                                        <li><a href="team-carousel.html">Team Carousel</a></li>
+                                        <li><a href="team-details.html">Team Details</a></li>
+                                        <li><a href="pricing.html">Pricing</a></li>
+                                        <li><a href="testimonial.html">Testimonials</a></li>
+                                        <li><a href="testimonials-carousel.html">Testimonials Carousel</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="gallery-carousel.html">Gallery Carousel</a></li>
+                                        <li><a href="faq.html">FAQs</a></li>
+                                        <li><a href="404.html">404 Error</a></li>
+                                    </ul>
+								</li>
+								<li class="dropdown">
+									<a href="#">Services</a>
+									<ul>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="services2.html">Services 02</a></li>
+                                        <li><a href="service2-carousel.html">Services Carousel</a></li>
+                                        <li><a href="product-development.html">Product development</a></li>
+                                        <li><a href="ui-ux-designing.html">UI/UX designing</a></li>
+                                        <li><a href="digital-marketing.html">Digital marketing</a></li>
+                                        <li><a href="content-management.html">Content management</a></li>
+                                        <li><a href="data-analysis.html">Data analysis</a></li>
+                                    </ul>
+								</li>
+								<li class="dropdown">
+									<a href="#">Projects</a>
+									<ul>
+                                        <li><a href="projects-page-1.html">Project 01</a></li>
+                                        <li><a href="project-carousel-1.html">Project Carousel 01</a></li>
+                                        <li><a href="projects-page-2.html">Project 02</a></li>
+                                        <li><a href="project-carousel-2.html">Project Carousel 02</a></li>
+                                        <li><a href="project-details.html">Project Details</a></li>
+                                    </ul>
+								</li>
+								<li class="dropdown">
+									<a href="#">Blog</a>
+									<ul>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="blog-carousel.html">Blog Carousel</a></li>
+                                        <li><a href="blog-sidebar.html">Blog Sidebar Right</a></li>
+                                        <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
+                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+								</li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main-menu__right">
+						<div class="main-menu__search-call">
+							<div class="main-menu__call">
+								<div class="main-menu__call-icon">
+									<img src="assets/images/icon/main-menu-icon-comment.png" alt="">
+								</div>
+								<div class="main-menu__call-number">
+									<p>Have any question?</p>
+									<h5><a href="tel:926668880000"><span>Free</span> +98 (000)-9850</a></h5>
+								</div>
+							</div>
+							<div class="main-menu__search-box">
+								<a href="#" class="main-menu__search search-toggler icon-magnifying-glass"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<div class="stricky-header stricked-menu main-menu">
+			<div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+		</div><!-- /.stricky-header -->
+
+		<!--Page Header Start-->
+		<section class="page-header">
+			<div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
+			</div>
+			<div class="container">
+				<div class="page-header__inner">
+					<ul class="thm-breadcrumb list-unstyled">
+						<li><a href="index.html">Home</a></li>
+						<li><span>/</span></li>
+						<li class="active">Gallery</li>
+					</ul>
+					<h2>Gallery Carousel</h2>
+				</div>
+			</div>
+		</section>
+		<!--Page Header End-->
+
+		<!--Gallery Page Start-->
+		<section class="gallery-page gallery-page--carousel">
+			<div class="container">
+				<div class="thm-owl__carousel owl-theme owl-carousel carousel--have-shadow carousel-dot-style-1"
+					data-owl-options='{
+					"loop": true,
+					"autoplay": true,
+					"margin": 0,
+					"items": 1,
+					"nav": false,
+					"dots": true,
+					"smartSpeed": 500,
+					"autoplayTimeout": 10000,
+					"navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+					"responsive": {
+						"0": {
+							"items": 1
+						},
+						"768": {
+							"items": 2,
+							"margin": 30
+						},
+						"992": {
+							"items": 3,
+							"margin": 30
+						}
+					}
+				}'>
+					<div class="item">
+						<!--Gallery Page Single-->
+						<div class="gallery-page__single">
+							<div class="gallery-page__img">
+								<img src="assets/images/gallery/gallery-page-1.jpg" alt="">
+								<div class="gallery-page__icon">
+									<a class="img-popup" href="assets/images/gallery/gallery-page-1.jpg"><span
+											class="icon-plus-symbol"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<!--Gallery Page Single-->
+						<div class="gallery-page__single">
+							<div class="gallery-page__img">
+								<img src="assets/images/gallery/gallery-page-2.jpg" alt="">
+								<div class="gallery-page__icon">
+									<a class="img-popup" href="assets/images/gallery/gallery-page-2.jpg"><span
+											class="icon-plus-symbol"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<!--Gallery Page Single-->
+						<div class="gallery-page__single">
+							<div class="gallery-page__img">
+								<img src="assets/images/gallery/gallery-page-3.jpg" alt="">
+								<div class="gallery-page__icon">
+									<a class="img-popup" href="assets/images/gallery/gallery-page-3.jpg"><span
+											class="icon-plus-symbol"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<!--Gallery Page Single-->
+						<div class="gallery-page__single">
+							<div class="gallery-page__img">
+								<img src="assets/images/gallery/gallery-page-4.jpg" alt="">
+								<div class="gallery-page__icon">
+									<a class="img-popup" href="assets/images/gallery/gallery-page-4.jpg"><span
+											class="icon-plus-symbol"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<!--Gallery Page Single-->
+						<div class="gallery-page__single">
+							<div class="gallery-page__img">
+								<img src="assets/images/gallery/gallery-page-5.jpg" alt="">
+								<div class="gallery-page__icon">
+									<a class="img-popup" href="assets/images/gallery/gallery-page-5.jpg"><span
+											class="icon-plus-symbol"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<!--Gallery Page Single-->
+						<div class="gallery-page__single">
+							<div class="gallery-page__img">
+								<img src="assets/images/gallery/gallery-page-6.jpg" alt="">
+								<div class="gallery-page__icon">
+									<a class="img-popup" href="assets/images/gallery/gallery-page-6.jpg"><span
+											class="icon-plus-symbol"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<!--Gallery Page Single-->
+						<div class="gallery-page__single">
+							<div class="gallery-page__img">
+								<img src="assets/images/gallery/gallery-page-7.jpg" alt="">
+								<div class="gallery-page__icon">
+									<a class="img-popup" href="assets/images/gallery/gallery-page-7.jpg"><span
+											class="icon-plus-symbol"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<!--Gallery Page Single-->
+						<div class="gallery-page__single">
+							<div class="gallery-page__img">
+								<img src="assets/images/gallery/gallery-page-8.jpg" alt="">
+								<div class="gallery-page__icon">
+									<a class="img-popup" href="assets/images/gallery/gallery-page-8.jpg"><span
+											class="icon-plus-symbol"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<!--Gallery Page Single-->
+						<div class="gallery-page__single">
+							<div class="gallery-page__img">
+								<img src="assets/images/gallery/gallery-page-9.jpg" alt="">
+								<div class="gallery-page__icon">
+									<a class="img-popup" href="assets/images/gallery/gallery-page-9.jpg"><span
+											class="icon-plus-symbol"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Gallery Page End-->
+
+		<!--Site Footer Start-->
+		<footer class="site-footer">
+			<div class="site-footer-bg-1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms"
+				style="background-image: url(assets/images/shapes/site-footer-shape-1.png);">
+			</div>
+			<div class="site-footer-bg-2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms"
+				style="background-image: url(assets/images/shapes/site-footer-shape-2.png);">
+			</div>
+			<div class="site-footer__top">
+				<div class="container">
+					<div class="site-footer__top-inner">
+						<div class="site-footer__top-left">
+							<div class="site-footer__top-icon">
+								<span class="icon-artificial-intelligence"></span>
+							</div>
+							<h3 class="site-footer__top-title">Helping you overcome your technology challenges</h3>
+						</div>
+						<div class="site-footer__top-right">
+							<a href="about.html" class="thm-btn site-footer__btn">Discover more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="site-footer__middle">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+							<div class="footer-widget__column footer-widget__about">
+								<div class="footer-widget__logo">
+									<a href="index.html"><img src="assets/images/resources/footer-logo.png" alt=""></a>
+								</div>
+								<div class="footer-widget__about-text-box">
+									<p class="footer-widget__about-text">Subsrcibe for our upcoming latest articles and
+										news resources</p>
+								</div>
+								<form class="footer-widget__newsletter-form">
+									<div class="footer-widget__newsletter-input-box">
+										<input type="email" placeholder="Email address" name="email">
+										<button type="submit" class="footer-widget__newsletter-btn"><img
+												src="assets/images/icon/footer-widget-newsletter-send-icon.png"
+												alt=""></button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+							<div class="footer-widget__column footer-widget__links clearfix">
+								<h3 class="footer-widget__title">Links</h3>
+								<ul class="footer-widget__links-list list-unstyled clearfix">
+									<li><a href="about.html">About us</a></li>
+									<li><a href="team.html">Meet our team</a></li>
+									<li><a href="blog.html">News & media</a></li>
+									<li><a href="projects-page-1.html">Our projects</a></li>
+									<li><a href="contact.html">Contacts</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+							<div class="footer-widget__column footer-widget__contact clearfix">
+								<h3 class="footer-widget__title">Contact</h3>
+								<ul class="footer-widget__contact-list list-unstyled clearfix">
+									<li>
+										<div class="icon">
+											<span class="icon-telephone"></span>
+										</div>
+										<div class="text">
+											<p><a href="tel:980009850">+98 (000)-9850</a></p>
+										</div>
+									</li>
+									<li>
+										<div class="icon">
+											<span class="icon-email"></span>
+										</div>
+										<div class="text">
+											<p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+										</div>
+									</li>
+									<li>
+										<div class="icon">
+											<span class="icon-pin"></span>
+										</div>
+										<div class="text">
+											<p>66 broklyn golden street line <br> new york</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+							<div class="footer-widget__column footer-widget__social-box clearfix">
+								<div class="site-footer__social">
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-facebook"></i></a>
+									<a href="#"><i class="fab fa-pinterest-p"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="site-footer__bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-12">
+							<div class="site-footer__bottom-inner">
+								<p class="site-footer__bottom-text">© All Copyright 2022 by <a
+										href="#">Layerdrops.com</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--Site Footer End-->
+
+
+	</div><!-- /.page-wrapper -->
+
+
+	<div class="mobile-nav__wrapper">
+		<div class="mobile-nav__overlay mobile-nav__toggler"></div>
+		<!-- /.mobile-nav__overlay -->
+		<div class="mobile-nav__content">
+			<span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+			<div class="logo-box">
+				<a href="index.html" aria-label="logo image"><img src="assets/images/resources/footer-logo.png"
+						width="155" alt="" /></a>
+			</div>
+			<!-- /.logo-box -->
+			<div class="mobile-nav__container"></div>
+			<!-- /.mobile-nav__container -->
+
+			<ul class="mobile-nav__contact list-unstyled">
+				<li>
+					<i class="fa fa-envelope"></i>
+					<a href="mailto:needhelp@packageName__.com">needhelp@notech.com</a>
+				</li>
+				<li>
+					<i class="fa fa-phone-alt"></i>
+					<a href="tel:666-888-0000">666 888 0000</a>
+				</li>
+			</ul><!-- /.mobile-nav__contact -->
+			<div class="mobile-nav__top">
+				<div class="mobile-nav__social">
+					<a href="#" class="fab fa-twitter"></a>
+					<a href="#" class="fab fa-facebook-square"></a>
+					<a href="#" class="fab fa-pinterest-p"></a>
+					<a href="#" class="fab fa-instagram"></a>
+				</div><!-- /.mobile-nav__social -->
+			</div><!-- /.mobile-nav__top -->
+
+
+
+		</div>
+		<!-- /.mobile-nav__content -->
+	</div>
+	<!-- /.mobile-nav__wrapper -->
+
+	<div class="search-popup">
+		<div class="search-popup__overlay search-toggler"></div>
+		<!-- /.search-popup__overlay -->
+		<div class="search-popup__content">
+			<form action="#">
+				<label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+				<input type="text" id="search" placeholder="Search Here..." />
+				<button type="submit" aria-label="search submit" class="thm-btn">
+					<i class="icon-magnifying-glass"></i>
+				</button>
+			</form>
+		</div>
+		<!-- /.search-popup__content -->
+	</div>
+	<!-- /.search-popup -->
+
+	<a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+	<script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+	<script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendors/jarallax/jarallax.min.js"></script>
+	<script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+	<script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+	<script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+	<script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+	<script src="assets/vendors/nouislider/nouislider.min.js"></script>
+	<script src="assets/vendors/odometer/odometer.min.js"></script>
+	<script src="assets/vendors/swiper/swiper.min.js"></script>
+	<script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+	<script src="assets/vendors/wnumb/wNumb.min.js"></script>
+	<script src="assets/vendors/wow/wow.js"></script>
+	<script src="assets/vendors/isotope/isotope.js"></script>
+	<script src="assets/vendors/countdown/countdown.min.js"></script>
+	<script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+	<script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+	<script src="assets/vendors/vegas/vegas.min.js"></script>
+	<script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+	<script src="assets/vendors/timepicker/timePicker.js"></script>
+
+
+
+
+	<!-- template js -->
+	<script src="assets/js/notech.js"></script>
+
+	<!-- toolbar js -->
+	<script src="assets/vendors/toolbar/js/js.cookie.min.js"></script>
+	<script src="assets/vendors/toolbar/js/jQuery.style.switcher.min.js"></script>
+	<script src="assets/vendors/toolbar/js/toolbar.js"></script>
+</body>
+
+</html>
